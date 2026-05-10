@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+/*Header*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+  background: #7a0000;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  text-decoration-line: none;
+
+  background: #b95a58;
+  padding: 8px;
+  margin: 8px;
+  text-align: center;
+  height: 20px;
+  border-radius: 12px;
+}
+
+/*Conteúdo*/
+
+h1{
+    display: flex;
+    font-family: "Tangerine", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2, h3{
+  font-family:"DM Sans";
+}
+
+.listas{
+  list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  justify-content: center; 
+}
+
+.cardtext{
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #7a0000;
+}
+
+.footerp{
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+}
