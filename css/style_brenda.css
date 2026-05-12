@@ -10,7 +10,7 @@ p, span{
 
 
 
-a, h2, h4 em {
+h2, h4 em {
 
  font-size: 18px;
  color: rgb(94, 13, 60);
@@ -19,6 +19,14 @@ a, h2, h4 em {
  font-family: "Times New Roman", Times, serif;
 }
 
+a {
+
+ font-size: 18px;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ margin: 10px;
+ font-family: "Times New Roman", Times, serif;
+}
 
 
 
@@ -98,32 +106,46 @@ body {
 }
 
 
-.navbar {
+header {
   display: flex;
-  flex-direction: row;    
-  align-items: flex-start;
-  justify-content: center;
-  gap: 40px;
-  background: rgb(182, 133, 175);
-  font-weight: bold;
-  margin: 0;       
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+  background: #7a0000;
 }
-.linksNav {
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.navlinks {
   display: flex;
-  flex-direction: row;    
-  align-items: center;    
-  justify-content: center;
-  text-decoration: none;
-  background: rgb(182, 133, 175);
-  background-size: 800px;
-  gap: 40px;
-  padding: 20px 0;       
-  width: 100%;
+  flex-direction: row;
+  justify-content:flex-start;
+
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  text-decoration-line: none;
+
+  background: #b95a58;
+  padding: 8px;
+  margin: 8px;
+  text-align: center;
+  height: 20px;
+  border-radius: 12px;
+
+  list-style-type: none;
 }
 
 .logo {
   font-size: 50px;
-  color: #631212;
+  color: #ffffff;
   display: flex;
   text-align: left;
   align-items: flex-start;
