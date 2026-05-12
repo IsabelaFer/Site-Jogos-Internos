@@ -44,11 +44,18 @@ h1{
     display: flex;
     font-family: "Tangerine", sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 h2, h3{
   font-family:"DM Sans";
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 16px;
 }
 
 .listas{
@@ -75,13 +82,125 @@ h2, h3{
   font-family: "DM Sans", sans-serif;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-content: center;
+.foto-campeao {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    flex: 1;
+    width: 100%;
+}
+
+.titulo-contato {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #7a0000;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contato-coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* CARDS */
+.cardc {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cardc h3 {
+    color: #7a0000;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.cardc p {
+    margin: 10px 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+.cardc a {
+    color: #7a0000;
+    text-decoration: none;
+}
+
+.cardc a:hover {
+    text-decoration: underline;
+}
+
+.organizador {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+}
+
+.organizador:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Form */
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+    outline: none;
+    border-color: #7a0000;
+}
+
+.form-contato button {
+    background: #7a0000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.form-contato button:hover {
+    background: #a00000;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Footer*/
 
