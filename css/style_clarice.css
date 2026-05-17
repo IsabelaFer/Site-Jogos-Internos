@@ -1,1 +1,65 @@
+.modalidades{
+    padding: 40px;
+}
 
+
+.barra-titulo{
+    background-color: #7a0000;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin-bottom: 30px;
+}
+
+
+.barra-titulo h1{
+    font-family: 'Tangerine', cursive;
+
+    color: white;
+
+    font-size: 60px;
+
+    text-align: center;
+}
+
+
+.container-cards{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color: white;
+
+    width: 250px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    font-family: 'DM Sans', sans-serif;
+
+    transition: 0.3s;
+}
+
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+
+.card h2{
+    color: #7a0000;
+
+    margin-bottom: 10px;
+}
