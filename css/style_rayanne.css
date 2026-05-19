@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+  background: #7a0000;
+}
+
+
+.foto-equipe {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #7a0000;
+}
+
+.footerp{
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+}
