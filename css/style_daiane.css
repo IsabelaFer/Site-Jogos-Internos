@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+/*Header*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+  background: #7a0000;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  text-decoration-line: none;
+
+  background: #b95a58;
+  padding: 8px;
+  margin: 8px;
+  text-align: center;
+  height: 20px;
+  border-radius: 12px;
+}
+
+/*Conteúdo*/
+
+h1{
+    font-family: "Tangerine", sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+h2{
+  font-family:"DM Sans";
+  font-weight: bold;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: 'DM Sans', sans-serif;
+}
+
+th {
+  background-color: #7a0000;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+
+    width: 400px;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #7a0000;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+}
