@@ -10,15 +10,78 @@ header {
   background: #7a0000;
 }
 
-
-.foto-equipe {
-  width: 100%;
-  height: 140px;
-  object-fit: contain;
-  border-radius: 8px;
-  margin-bottom: 10px;
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
 }
 
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  text-decoration-line: none;
+
+  background: #b95a58;
+  padding: 8px;
+  margin: 8px;
+  text-align: center;
+  height: 20px;
+  border-radius: 12px;
+}
+
+.cards-equipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin: 10px;
+    flex: 1 1 220px; /* Base de tamanho flexível */
+    max-width: 280px;
+    transition: transform 0.2s;
+}
+
+.card-equipe h3 {
+    color: #7a0000;
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+
+.detalhe-equipe {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    margin: 4px 0;
+    color: #555;
+}
+
+.badge-cor {
+    width: 40px;
+    height: 15px;
+    border-radius: 8px;
+    margin-top: 12px;
+    border: 1px solid #ddd;
+}
 
 footer {
   width: 100%;
