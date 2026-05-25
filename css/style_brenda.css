@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 p, span{
   font-size: 18px;
-  color: rgb(94, 13, 60);
+  color: rgb(73, 18, 27);
   font-weight: bold;
   margin: 10px;
   line-height: 1.6;
@@ -13,19 +15,10 @@ p, span{
 h2, h4 em {
 
  font-size: 18px;
- color: rgb(94, 13, 60);
- font-weight: bold;
- margin: 10px;
- font-family: "Times New Roman", Times, serif;
-}
-
-a {
-
- font-size: 18px;
  color: rgb(255, 255, 255);
  font-weight: bold;
  margin: 10px;
- font-family: "Times New Roman", Times, serif;
+ font-family: "Tangerine", Times, serif; 
 }
 
 
@@ -36,7 +29,6 @@ h3 em {
 
  font-size: 18px;
  color: rgb(255, 255, 255);
- font-weight: bold;
  margin: 10px;
  font-family: "Times New Roman", Times, serif;
 
@@ -45,10 +37,11 @@ h3 em {
 
 
 h1{
- font-size: 80px;
+ font-size: 55px;
  color: rgb(99, 7, 7);
  font-weight: bold;
  margin: 11px;
+ text-align: center;
  
 
 
@@ -85,6 +78,7 @@ body {
   text-align: center;
   height: auto;
   margin: 16px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -150,7 +144,6 @@ header {
   text-align: left;
   align-items: flex-start;
   font-weight: bold;
-  font-family: "Tangerine", Times, serif; 
 }
 
 .bannerDestaq{
@@ -165,16 +158,14 @@ header {
   text-align: center;
 }
 
-.bannerFoot{
-  background-color: rgb(20, 20, 20);
-  background-size: cover;
-  background-position: center;
-  height: 60%;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  position: relative;
+footer {
+  width: 100%;
   text-align: center;
+  padding: 10px;
+  background-color: #7a0000;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
 }
 
 .bannerCont{
