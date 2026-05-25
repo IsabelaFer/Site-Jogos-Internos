@@ -49,7 +49,7 @@ h1{
  color: rgb(99, 7, 7);
  font-weight: bold;
  margin: 11px;
- font-family: "Tangerine", Times, serif; /* Fonte para títulos */
+ 
 
 
 }
@@ -150,6 +150,7 @@ header {
   text-align: left;
   align-items: flex-start;
   font-weight: bold;
+  font-family: "Tangerine", Times, serif; 
 }
 
 .bannerDestaq{
